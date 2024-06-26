@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #def0ff;
+    color: #000000;
+}
+
+header {
+    background: linear-gradient(90deg, #0f2b3d, #235a7c);
+    color: #0e0e0e;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px #170f3d;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#informacoes-pessoais {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#informacoes-pessoais img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #005200de;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+
+#informacoes-pessoais h1 {
+    margin: 1rem 0 0.5rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#informacoes-pessoais p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+#informacoes-pessoais ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#informacoes-pessoais ul li {
+    margin: 0.5rem 0;
+}
+
+#informacoes-pessoais ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#informacoes-pessoais ul li a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+#projetos {
+    text-align: center;
+}
+
+#projetos h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projeto {
+    flex: 1 1 calc(25% - 2rem);
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projeto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projeto img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.projeto h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.button-back {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #0f2b3d;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

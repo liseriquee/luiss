@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="CSS/STYLE.CSS">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="login.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="login">
+            <h2>Login Editor</h2>
+            <form onsubmit="event.preventDefault(); fazerLogin();">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username">
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LuisHenriqueRamos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JS/scripts.js"></script>
+</body>
+
+</html>
